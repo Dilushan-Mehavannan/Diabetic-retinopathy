@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights (large binary files — store in Drive or DVC)
+model/*.h5
+model/*.pb
+model/*.tflite
+model/saved_model/
+
+# Data (do not commit raw images or CSVs)
+data/
+*.csv
+sample_images/*.png
+sample_images/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+runs/
+
+# Build artefacts
+assets/gradcam_*.png
+assets/training_*.png
